@@ -4,7 +4,7 @@ export function useToast() {
   return {
     toast: (props: {
       title: string;
-      description?: string;
+      description: string;
       variant: 'default' | 'destructive';
     }) => {
       sonnerToast(

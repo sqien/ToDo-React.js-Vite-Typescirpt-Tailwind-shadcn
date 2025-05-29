@@ -41,11 +41,8 @@ function App() {
 
     toast({
       title: 'New task added',
-      description: (
-        <p>
-          <b className="text-md">{trimmed}</b> has been added to your tasks
-        </p>
-      ),
+      description: `${trimmed} has been added to your tasks`,
+      variant: 'default',
     });
   };
 
