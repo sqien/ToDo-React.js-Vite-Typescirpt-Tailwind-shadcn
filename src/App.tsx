@@ -7,7 +7,7 @@ import { ThemeToggle } from '@/components/ThemeToggle';
 import { ConfirmDeleteAllAlert } from '@/components/ConfirmDeleteAllAlert';
 import { ToasterUI } from '@/components/ui/toaster';
 import { useToast } from '@/components/ui/use-toast';
-import { EditTaskDialog } from '@/components/EditTaskDialog';
+
 
 interface Task {
   text: string;
@@ -29,11 +29,7 @@ function App() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }, [tasks]);
 
-  const handleEdit = (index: number, newText: string) => {
-    const updated = [...tasks];
-    updated[index].text = newText;
-    setTasks(updated);
-  };
+
 
   const addTask = () => {
     const trimmed = inputValue.trim();
