@@ -2,6 +2,14 @@
 
 ![Demo](https://s2.ezgif.com/tmp/ezgif-29af65e8bdadde.gif)
 
+---
+
+## 🌐 Live Demo
+
+👉 [View Live Project](https://todo-sqien.netlify.app/)
+
+---
+
 A simple and modern ToDo application built with **React**, **Tailwind CSS**, and **Vite**.  
 Fully responsive with a clean and minimalistic interface.
 
@@ -23,12 +31,6 @@ Fully responsive with a clean and minimalistic interface.
 - ✅ Mark tasks as completed
 - ✅ Responsive design for mobile & desktop
 - ✅ Clean and modern UI built with Tailwind
-
----
-
-## 🌐 Live Demo
-
-👉 [View Live Project](https://todo-sqien.netlify.app/)
 
 ---
 
